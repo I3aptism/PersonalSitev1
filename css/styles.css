@@ -18,7 +18,7 @@ body {
 
 .bottom-container {
   background-color: #f7b71d;
-  padding: 50px 0 30px;
+  padding: 50px 0 20px;
 }
 
 .profile {
@@ -52,10 +52,29 @@ h3 {
 
 a {
   color: #00818a;
+  text-decoration: none;
+}
+
+.footer-link {
+    margin: 10px 20px;
+}
+
+a:hover {
+  color: white;
 }
 
 p {
   line-height: 2;
+}
+
+.credit {
+  font-size: 0.75rem;
+  margin: 50px auto 0 auto;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 hr {
@@ -75,6 +94,7 @@ hr {
   cursor: pointer;
   color:#ffffff;
   display:inline-block;
+
   font-weight: 600;
   margin: 30px 0 15px 0;
   padding:15px 32px;
